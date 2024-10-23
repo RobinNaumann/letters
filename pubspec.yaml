@@ -1,0 +1,38 @@
+name: letters
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 0.1.1+2
+
+environment:
+  sdk: ">=3.1.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  macos_ui: ^2.0.9
+  elbe: ^0.1.40
+  http: ^1.1.0
+  google_fonts: ^6.2.1
+  file_saver: ^0.2.14
+  url_launcher: ^6.3.1
+  moewe: ^0.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #flutter pub run flutter_launcher_icons
+  flutter_launcher_icons: ^0.14.1
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  macos:
+    generate: true
+    image_path: "assets/letters_icon_macos.png"
