@@ -6,13 +6,13 @@
 	<true/>
 	<key>com.apple.security.cs.allow-jit</key>
 	<true/>
-	<key>com.apple.security.network.server</key>
-	<true/>
 	<key>com.apple.security.network.client</key>
 	<true/>
+	<key>com.apple.security.network.server</key>
+	<true/>
 	<key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
-  <array>
-    <string>/Library/Fonts/</string>
-  </array>
+	<array>
+		<string>/Library/Fonts/</string>
+	</array>
 </dict>
 </plist>

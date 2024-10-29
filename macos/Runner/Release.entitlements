@@ -6,6 +6,9 @@
 	<true/>
 	<key>com.apple.security.network.client</key>
     <true/>
-<true/>
+	<key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>/Library/Fonts/</string>
+	</array>
 </dict>
 </plist>

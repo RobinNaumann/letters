@@ -24,12 +24,12 @@ void main() async {
 
   // setup Moewe for crash logging
   await Moewe(
-    host: "moewe.robbb.in",
-    project: "8d81cd0217d0500f",
-    app: "892300188b05e826",
-    appVersion: packageInfo?.version ?? "0.0.0",
-    buildNumber: int.tryParse(packageInfo?.buildNumber ?? "0") ?? 0,
-  ).init();
+          host: "moewe.robbb.in",
+          project: "8d81cd0217d0500f",
+          app: "892300188b05e826",
+          appVersion: packageInfo?.version,
+          buildNumber: int.tryParse(packageInfo?.buildNumber ?? ""))
+      .init();
 
   moewe.events.appOpen();
 

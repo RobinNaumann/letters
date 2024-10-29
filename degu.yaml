@@ -20,7 +20,7 @@ screenshots:
   - https://raw.githubusercontent.com/RobinNaumann/letters/main/assets/screenshots/scs_3.png
   - https://raw.githubusercontent.com/RobinNaumann/letters/main/assets/screenshots/scs_4.png
 releases:
-  - version: 0.2.0
+  - version: 0.1.1
     downloads:
       - platform: macOS
-        url: https://github.com/RobinNaumann/letters/releases/download/v0.2.0/Letters.app.zip
+        url: https://github.com/RobinNaumann/letters/releases/latest/download/Letters.app.zip

@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 publish_to: "none"
 
-version: 0.1.1+2
+version: 0.1.2+3
 
 environment:
   sdk: ">=3.1.4 <4.0.0"
@@ -19,7 +19,7 @@ dependencies:
   google_fonts: ^6.2.1
   file_saver: ^0.2.14
   url_launcher: ^6.3.1
-  moewe: ^0.2.4
+  moewe: ^0.2.7
 
 dev_dependencies:
   flutter_test:

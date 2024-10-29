@@ -5,11 +5,31 @@ import 'package:letters/bit/b_fonts.dart';
 import 'package:letters/model/m_font.dart';
 import 'package:letters/view/v_filters.dart';
 import 'package:macos_ui/macos_ui.dart';
+import 'package:moewe/moewe.dart';
 
 import '../bit/b_installed.dart';
 
 class ExploreView extends StatelessWidget {
   const ExploreView({super.key});
+
+  ToolBarIconButton _sendFeedbackButton(BuildContext c) => ToolBarIconButton(
+      label: "view",
+      icon: MacosIcon(CupertinoIcons.exclamationmark_bubble),
+      tooltipMessage: "send feedback",
+      onPressed: () => MoeweFeedbackPage.show(
+            c,
+            labels: FeedbackLabels(
+                header: "send feedback",
+                description:
+                    "Hey ☺️ Thanks for using Letters!\nIf you have any feedback, questions or suggestions, please let me know. I'm always happy to hear from you.",
+                contactDescription:
+                    "if you want me to respond to you, please provide your email address or social media handle",
+                contactHint: "contact info (optional)"),
+            theme: MoeweTheme(
+                darkTheme: MacosTheme.brightnessOf(c) == Brightness.dark,
+                backButtonOffset: 5),
+          ),
+      showLabel: false);
 
   @override
   Widget build(BuildContext context) {
@@ -27,6 +47,8 @@ class ExploreView extends StatelessWidget {
                         overflow: TextOverflow.fade,
                       ),
                       actions: [
+                        _sendFeedbackButton(context),
+                        ToolBarDivider(),
                         ToolBarIconButton(
                             label: "view",
                             icon: MacosIcon(filter.filter.grid

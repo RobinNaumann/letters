@@ -61,10 +61,10 @@ packages:
     dependency: transitive
     description:
       name: cli_util
-      sha256: c05b7406fdabc7a49a3929d4af76bcaccbbffcbcdcf185b082e1ae07da323d19
+      sha256: ff6785f7e9e3c38ac98b2fb035701789de90154024a75b6cb926445e83197d1c
       url: "https://pub.dev"
     source: hosted
-    version: "0.4.1"
+    version: "0.4.2"
   clock:
     dependency: transitive
     description:
@@ -133,10 +133,10 @@ packages:
     dependency: "direct main"
     description:
       name: elbe
-      sha256: cc5d21357c77cb779a6fc9250576273d6a5a8d34bafb2dc6828ed61fca2538ff
+      sha256: b1edf0af9b7c2c1aae7a38d3269eb63a73748a0738c890ce540d3fa10d1f8ba1
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.40"
+    version: "0.1.41"
   equatable:
     dependency: transitive
     description:
@@ -356,10 +356,10 @@ packages:
     dependency: "direct main"
     description:
       name: moewe
-      sha256: "6b0ae5585db54dce0115c04615fe943b584b3173b087d184ce22e6e614e8bf8a"
+      sha256: ef0e4d865f2636dc29a5f7dfadabbedbf88dce3710f72c93fe38f58e084cc9a5
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.4"
+    version: "0.2.7"
   package_info_plus:
     dependency: transitive
     description:
@@ -529,10 +529,10 @@ packages:
     dependency: transitive
     description:
       name: url_launcher_android
-      sha256: "8fc3bae0b68c02c47c5c86fa8bfa74471d42687b0eded01b78de87872db745e2"
+      sha256: "0dea215895a4d254401730ca0ba8204b29109a34a99fb06ae559a2b60988d2de"
       url: "https://pub.dev"
     source: hosted
-    version: "6.3.12"
+    version: "6.3.13"
   url_launcher_ios:
     dependency: transitive
     description:
@@ -609,10 +609,10 @@ packages:
     dependency: transitive
     description:
       name: win32
-      sha256: "2735daae5150e8b1dfeb3eb0544b4d3af0061e9e82cef063adcd583bdae4306a"
+      sha256: "10169d3934549017f0ae278ccb07f828f9d6ea21573bab0fb77b0e1ef0fce454"
       url: "https://pub.dev"
     source: hosted
-    version: "5.7.0"
+    version: "5.7.2"
   win32_registry:
     dependency: transitive
     description:
