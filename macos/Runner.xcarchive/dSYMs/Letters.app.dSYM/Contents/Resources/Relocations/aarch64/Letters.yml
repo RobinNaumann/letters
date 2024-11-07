@@ -2,19 +2,19 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/robin/Library/Developer/Xcode/DerivedData/Runner-ahfxdxghmqwnnlcgnqbzmhgsemgs/Build/Intermediates.noindex/ArchiveIntermediates/Runner/InstallationBuildProductsLocation/Applications/Letters.app/Contents/MacOS/Letters'
 relocations:
-  - { offset: 0xCB3F7, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowC12awakeFromNibyyFTo', symObjAddr: 0x0, symBinAddr: 0x10000192C, symSize: 0xFC }
-  - { offset: 0xCB52D, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowCMa', symObjAddr: 0x1B8, symBinAddr: 0x100001AE4, symSize: 0x20 }
-  - { offset: 0xCB541, size: 0x8, addend: 0x0, symName: '_$s7Letters24RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tFTf4e_nSo0F14ViewControllerC_Tg5', symObjAddr: 0x1D8, symBinAddr: 0x100001B04, symSize: 0x344 }
-  - { offset: 0xCB604, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowC12awakeFromNibyyFTo', symObjAddr: 0x0, symBinAddr: 0x10000192C, symSize: 0xFC }
-  - { offset: 0xCB73D, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowC11contentRect9styleMask7backing5deferACSo6CGRectV_So013NSWindowStyleH0VSo18NSBackingStoreTypeVSbtcfcTo', symObjAddr: 0xFC, symBinAddr: 0x100001A28, symSize: 0x8C }
-  - { offset: 0xCB782, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowCfD', symObjAddr: 0x188, symBinAddr: 0x100001AB4, symSize: 0x30 }
-  - { offset: 0xCB9C9, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCFTo', symObjAddr: 0x0, symBinAddr: 0x100001E48, symSize: 0x8 }
-  - { offset: 0xCBA5A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x74, symBinAddr: 0x100001EBC, symSize: 0x28 }
-  - { offset: 0xCBAA4, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateCMa', symObjAddr: 0x9C, symBinAddr: 0x100001EE4, symSize: 0x20 }
-  - { offset: 0xCBAF1, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCFTo', symObjAddr: 0x0, symBinAddr: 0x100001E48, symSize: 0x8 }
-  - { offset: 0xCBB1E, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateCACycfcTo', symObjAddr: 0x8, symBinAddr: 0x100001E50, symSize: 0x3C }
-  - { offset: 0xCBB59, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateCfD', symObjAddr: 0x44, symBinAddr: 0x100001E8C, symSize: 0x30 }
-  - { offset: 0xCBDC1, size: 0x8, addend: 0x0, symName: '_$s7Letters19ResourceBundleClass33_CDD659F15235832D7C9781CF883834E9LLCfD', symObjAddr: 0x0, symBinAddr: 0x100001F04, symSize: 0x10 }
-  - { offset: 0xCBE03, size: 0x8, addend: 0x0, symName: '_$s7Letters19ResourceBundleClass33_CDD659F15235832D7C9781CF883834E9LLCMa', symObjAddr: 0x10, symBinAddr: 0x100001F14, symSize: 0x20 }
-  - { offset: 0xCBE1E, size: 0x8, addend: 0x0, symName: '_$s7Letters19ResourceBundleClass33_CDD659F15235832D7C9781CF883834E9LLCfD', symObjAddr: 0x0, symBinAddr: 0x100001F04, symSize: 0x10 }
+  - { offset: 0xCB429, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowC12awakeFromNibyyFTo', symObjAddr: 0x0, symBinAddr: 0x10000192C, symSize: 0xFC }
+  - { offset: 0xCB55F, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowCMa', symObjAddr: 0x1B8, symBinAddr: 0x100001AE4, symSize: 0x20 }
+  - { offset: 0xCB573, size: 0x8, addend: 0x0, symName: '_$s7Letters24RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tFTf4e_nSo0F14ViewControllerC_Tg5', symObjAddr: 0x1D8, symBinAddr: 0x100001B04, symSize: 0x344 }
+  - { offset: 0xCB636, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowC12awakeFromNibyyFTo', symObjAddr: 0x0, symBinAddr: 0x10000192C, symSize: 0xFC }
+  - { offset: 0xCB76F, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowC11contentRect9styleMask7backing5deferACSo6CGRectV_So013NSWindowStyleH0VSo18NSBackingStoreTypeVSbtcfcTo', symObjAddr: 0xFC, symBinAddr: 0x100001A28, symSize: 0x8C }
+  - { offset: 0xCB7B4, size: 0x8, addend: 0x0, symName: '_$s7Letters17MainFlutterWindowCfD', symObjAddr: 0x188, symBinAddr: 0x100001AB4, symSize: 0x30 }
+  - { offset: 0xCB9FB, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCFTo', symObjAddr: 0x0, symBinAddr: 0x100001E48, symSize: 0x8 }
+  - { offset: 0xCBA8C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x74, symBinAddr: 0x100001EBC, symSize: 0x28 }
+  - { offset: 0xCBAD6, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateCMa', symObjAddr: 0x9C, symBinAddr: 0x100001EE4, symSize: 0x20 }
+  - { offset: 0xCBB23, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCFTo', symObjAddr: 0x0, symBinAddr: 0x100001E48, symSize: 0x8 }
+  - { offset: 0xCBB50, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateCACycfcTo', symObjAddr: 0x8, symBinAddr: 0x100001E50, symSize: 0x3C }
+  - { offset: 0xCBB8B, size: 0x8, addend: 0x0, symName: '_$s7Letters11AppDelegateCfD', symObjAddr: 0x44, symBinAddr: 0x100001E8C, symSize: 0x30 }
+  - { offset: 0xCBDF3, size: 0x8, addend: 0x0, symName: '_$s7Letters19ResourceBundleClass33_CDD659F15235832D7C9781CF883834E9LLCfD', symObjAddr: 0x0, symBinAddr: 0x100001F04, symSize: 0x10 }
+  - { offset: 0xCBE35, size: 0x8, addend: 0x0, symName: '_$s7Letters19ResourceBundleClass33_CDD659F15235832D7C9781CF883834E9LLCMa', symObjAddr: 0x10, symBinAddr: 0x100001F14, symSize: 0x20 }
+  - { offset: 0xCBE50, size: 0x8, addend: 0x0, symName: '_$s7Letters19ResourceBundleClass33_CDD659F15235832D7C9781CF883834E9LLCfD', symObjAddr: 0x0, symBinAddr: 0x100001F04, symSize: 0x10 }
 ...

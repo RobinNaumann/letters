@@ -14,18 +14,18 @@
 		<key>CFBundleIdentifier</key>
 		<string>in.robbb.letters</string>
 		<key>CFBundleShortVersionString</key>
-		<string>0.1.1</string>
+		<string>0.1.2</string>
 		<key>CFBundleVersion</key>
-		<string>2</string>
+		<string>3</string>
 		<key>SigningIdentity</key>
-		<string>Apple Development: ro_nau11@gmx.de (UL38UMM9R5)</string>
+		<string>Developer ID Application: Robin Tim Naumann (J65M9HARFN)</string>
 		<key>Team</key>
-		<string>G7HRUA63GN</string>
+		<string>J65M9HARFN</string>
 	</dict>
 	<key>ArchiveVersion</key>
 	<integer>2</integer>
 	<key>CreationDate</key>
-	<date>2024-10-24T08:11:35Z</date>
+	<date>2024-10-29T16:39:18Z</date>
 	<key>Name</key>
 	<string>Runner</string>
 	<key>SchemeName</key>

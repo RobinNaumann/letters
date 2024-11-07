@@ -1,5 +1,7 @@
 import 'package:elbe/elbe.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:letters/errors/elbe_errors.dart';
+import 'package:letters/errors/p_elbe_error.dart';
 import 'package:macos_ui/macos_ui.dart';
 
 import '../bit/b_installed.dart';
@@ -23,13 +25,16 @@ class _InstallBtnState extends State<InstallBtn> {
     try {
       await bit.uninstall(widget.family.id);
     } catch (e) {
+      final err = elbeErrs.resolve(e);
       if (!mounted) return;
       showMacosAlertDialog(
           context: context,
           builder: (context) => MacosAlertDialog(
               horizontalActions: false,
               appIcon: WIcon(CupertinoIcons.exclamationmark_triangle),
-              title: WText("could not remove Font"),
+              title: GestureDetector(
+                  onTap: () => ElbeErrorPage.show(context, err),
+                  child: WText(err.message)),
               message: WText(
                 "Fonts not installed via Letters can only be removed via the MacOS Font Book App",
                 style: TextStyle(fontWeight: FontWeight.normal),
@@ -56,11 +61,14 @@ class _InstallBtnState extends State<InstallBtn> {
       await bit.install(widget.family.id);
     } catch (e) {
       if (!mounted) return;
+      final err = elbeErrs.resolve(e);
       showMacosAlertDialog(
           context: context,
           builder: (context) => MacosAlertDialog(
               appIcon: WIcon(CupertinoIcons.exclamationmark_triangle),
-              title: WText("could not install Font"),
+              title: GestureDetector(
+                  onTap: () => ElbeErrorPage.show(context, err),
+                  child: WText(err.message)),
               message: WText(
                 "make sure you are \nconnected to the internet",
                 style: TextStyle(fontWeight: FontWeight.normal),
