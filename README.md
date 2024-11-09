@@ -7,7 +7,7 @@ You can learn more about it on my personal website [here](https://apps.robbb.in/
 *<img src="./assets/screenshots/scs_1.png" width="350" />*
 *<img src="./assets/screenshots/scs_4.png" width="350" />*
 
-### Installing
+### Install
 1. download the `Letters.app` file from the Releases sidebar
 2. put it into your `Applications` directory
 
