@@ -1,16 +1,16 @@
-# letters
+# Letters
+a simple, open source font manager for macOS. It allows you to preview and install fonts on your system. It is built with Flutter and offers access to Google Fonts. 
 
-A new Flutter project.
+You can learn more about it on my personal website [here](https://apps.robbb.in/letters)
 
-## Getting Started
+### Screenshots 
+*<img src="./assets/screenshots/scs_1.png" width="350" />*
+*<img src="./assets/screenshots/scs_4.png" width="350" />*
 
-This project is a starting point for a Flutter application.
+### Installing
+download the `Letters.app` file from the Releases sidebar and placing the file into you `Applications` directory
 
-A few resources to get you started if this is your first Flutter project:
+### Feedback
+The app provides a feedback option (on the top left) which you can use to send ideas or feedback. I'm always happy grateful for feedback! Otherwise, feel free to message me here or open an issue
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Yours, Robin
