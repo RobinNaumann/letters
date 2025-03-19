@@ -18,3 +18,5 @@ The app is written in Flutter, so it should be relatively easy to port it to oth
 The app provides a feedback option (on the top left) which you can use to send ideas or feedback. I'm always happy grateful for feedback! Otherwise, feel free to message me here or open an issue
 
 Yours, Robin
+
+[!["donate"](https://robbb.in/donate/widgets/btn_long_git.png)](https://robbb.in/donate)
